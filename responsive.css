@@ -44,19 +44,25 @@
        
     }
     .see-more{
-        margin-left: 250px;
+        margin-left: 300px;
     }
     .see-more-container{
         width: 100%;
         
-        padding: 20px 50px 1px 58px;
+     padding: 20px 50px 1px 58px;
     }
+
     .featured-container {
         flex-direction: column;
         flex-direction: column-reverse;
         width: 100%;
         margin: 0 auto;
         margin-left: 80px;
+      }
+      .products-container{
+        
+        width: 100%;
+        
       }
       .featured-content {
         width: 100%;
