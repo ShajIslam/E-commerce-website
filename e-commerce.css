@@ -64,7 +64,7 @@
 }
 .prebook-button{
     color: #FFF;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 41px;
     background: #E02C6D;
@@ -80,7 +80,13 @@
     border: 1px ;
     margin: auto;
     padding: 30px;
-    border: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+    border: 1px solid;
+    border-image: linear-gradient(to right,transparent,rgba(128, 128, 128, 0.438),transparent);
+    border-left: 0;
+    border-right: 0;
+    border-image-slice: 1;
+
+    
 }
 /* Main styles */
 .main-title{
@@ -115,9 +121,10 @@
     width: 95%;
 }
 .product-title{
-    color: var(--text-gray-900, #18191F);
-    font-size: 28px;
+    color: #18191F;
+    font-size: 20px;
     font-weight: 500;
+    padding: 10px 0px;
     
 }
 .product-price{
@@ -133,5 +140,90 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 22px; /* 157.143% */
+    padding: 10px 0px 0px 0px;
+}  
+.see-more-container{
+    padding: 30px 0px 20px 0px;
+}
+.see-more{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1125px;
+}
+/* featured section styles */
+.featured-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.featured-content{
+    width: 50%;
+}
+.featured-title{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.featured-description{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0px;
+
+}
+.join-now-button{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    background: #E02C6D;
+    padding: 10px 30px;
+    border: none;
+    
+}
+/* footer styles */
+.footer-container{
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    margin-top: 200px;
+    padding: 50px;
+
+}
+.footer-container{
+ display: grid;
+ margin: 0 auto;
+ margin-top: 150px;
+}
+.footer-container ul{
+   display: flex;
+   justify-content: center;
+   margin-left: -25px;
+
+}
+ul > li{
+    list-style: none;
+    margin-right: 20px;
+   
+    
+}
+.footer-title{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+.copyright, .all-rights{
+    color:  #D9DBE1;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 0px 10px 0px;
 
 }
